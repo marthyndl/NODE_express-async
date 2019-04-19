@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/marthyndl/NODE_express-async/issues"
   },
-  "homepage": "https://github.com/marthyndl/NODE_express-async#readme"
+  "homepage": "https://github.com/marthyndl/NODE_express-async#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
